@@ -73,6 +73,7 @@ function App(): React.JSX.Element {
         style={backgroundStyle}>
         <Header />
         <View
+            testID='root-component'
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
